@@ -1,6 +1,5 @@
 package com.esprit.demo.control;
 
-import static org.mockito.Mockito.RETURNS_DEEP_STUBS;
 
 import java.util.List;
 import java.util.Optional;
@@ -59,4 +58,6 @@ public class UserRestController {
 	public User modifyUser(@RequestBody User user) {
 		return us.updateUser(user);
 	}
+	
+	
 }
